@@ -1,4 +1,4 @@
-const { stringLength, reverseString } = require('../src/string');
+const { stringLength, reverseString, capitalize } = require('../src/string');
 
 // checking string length function
 //1. Arrange
@@ -22,7 +22,7 @@ test(stringLengthMessage.error, () => {
 
 // checking string reverse function
 //Arrange
-const reverseStringMessage = 'the function return the string in reversed';
+const reverseStringMessage = 'The function return the string in reversed';
 
 //Act
 const reverseStringTest = reverseString('shahadat');
@@ -30,4 +30,17 @@ const reverseStringTest = reverseString('shahadat');
 //Assert
 test(reverseStringMessage, () => {
   expect(reverseStringTest).toBe('tadahahs');
+});
+
+// checking string capitalize function
+//Arrange
+const capitalizeStringMessage =
+  'The function return the string with first character in capital';
+
+//Act
+const capitalizeStringTest = capitalize('shahadat');
+
+//Assert
+test(capitalizeStringMessage, () => {
+  expect(capitalizeStringTest).toBe('Shahadat');
 });

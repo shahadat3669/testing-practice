@@ -71,6 +71,14 @@ This project is a simple javascript test practicing using jest. The main tasks a
   </ul>
 </details>
 
+<details>
+  <summary>Task 2: return string in reversed </summary>
+  <ul>
+    <li>Write a function reverseString(string) function. It should take a string as an argument and return it reversed.</li>
+    <li>Write at least one test for this function.</li>
+  </ul>
+</details>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->

@@ -1,7 +1,8 @@
-const { stringLength } = require('../src/string');
+const { stringLength, reverseString } = require('../src/string');
 
+// checking string length function
 //1. Arrange
-const message = {
+const stringLengthMessage = {
   success: 'The string length is 8',
   error: 'The string length must be greater than 0 and less than 11',
 };
@@ -11,10 +12,10 @@ const stringLengthGreaterThan_0_AndLessThan_11 = stringLength('shahadat');
 const stringLengthIsNotGreaterThan_0_AndLessThan_11 = () => stringLength('');
 
 //3. Assert
-test(message.success, () => {
+test(stringLengthMessage.success, () => {
   expect(stringLengthGreaterThan_0_AndLessThan_11).toBe(8);
 });
 
-test(message.error, () => {
+test(stringLengthMessage.error, () => {
   expect(stringLengthIsNotGreaterThan_0_AndLessThan_11).toThrow('Error');
 });

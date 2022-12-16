@@ -79,6 +79,15 @@ This project is a simple javascript test practicing using jest. The main tasks a
   </ul>
 </details>
 
+<details>
+  <summary>Task 3: calculator class with 4 methods: add, subtract, divide, and multiply</summary>
+  <ul>
+    <li>Write a simple calculator class or object, which will have 4 methods: add, subtract, divide, and multiply.</li>
+    <li>Write at least 3 tests for each of the calculator methods.</li>
+    <li>Group tests for each method using describe() method.</li>
+  </ul>
+</details>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->

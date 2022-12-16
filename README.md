@@ -58,10 +58,44 @@
 
 ### Key Features <a name="key-features"></a>
 
-> This project is a simple Todo List. The main features are:
+This project is a simple javascript test practicing using jest. The main tasks are:
 
-- **Write unit tests for a JavaScript app.**
-- **Use AAA pattern for unit tests.**
+<details>
+  <summary>Task 1: checking string length </summary>
+  <ul>
+    <li>Write a function stringLength(string) that takes any string as an argument and returns its characters count.</li>
+    <li>Now write a test for this function.</li>
+    <li>Next, expand your function to make it check if the string is at least 1 character long and not longer than 10 characters.</li>
+    <li>Throw errors if those conditions are not met.</li>
+    <li>Add tests for the new functionality.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Task 2: return string in reversed </summary>
+  <ul>
+    <li>Write a function reverseString(string) function. It should take a string as an argument and return it reversed.</li>
+    <li>Write at least one test for this function.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Task 3: calculator class with 4 methods: add, subtract, divide, and multiply</summary>
+  <ul>
+    <li>Write a simple calculator class or object, which will have 4 methods: add, subtract, divide, and multiply.</li>
+    <li>Write at least 3 tests for each of the calculator methods.</li>
+    <li>Group tests for each method using describe() method.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Task 4: create capitalize(string) function and returns that string with the first character capitalized</summary>
+  <ul>
+    <li>Start by writing a test for a capitalize(string) function. Your test should make sure that this function takes a string as an argument and returns that string with the first character capitalized.</li>
+    <li>Run your test - it should fail because you don’t have the capitalize(string) function implemented yet.</li>
+    <li>Now make your tests green by implementing the capitalize(string) function. Think about what the minimum amount of code is necessary to pass this test and write it.</li>
+  </ul>
+</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

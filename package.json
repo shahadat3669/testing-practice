@@ -1,0 +1,29 @@
+{
+  "name": "testing-practice",
+  "description": "In this exercise, I write a few practical tests for JavaScript functions using the Jest library. I make sure you follow the AAA pattern to make tests easier for other developers to read and understand. I also try to use the TDD approach in practice.",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahadat3669/testing-practice.git"
+  },
+  "keywords": [
+    "javascript testing",
+    "jest"
+  ],
+  "author": "Shahadat Hossain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shahadat3669/testing-practice/issues"
+  },
+  "homepage": "https://github.com/shahadat3669/testing-practice#readme"
+}

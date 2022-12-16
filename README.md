@@ -88,6 +88,15 @@ This project is a simple javascript test practicing using jest. The main tasks a
   </ul>
 </details>
 
+<details>
+  <summary>Task 4: create capitalize(string) function and returns that string with the first character capitalized</summary>
+  <ul>
+    <li>Start by writing a test for a capitalize(string) function. Your test should make sure that this function takes a string as an argument and returns that string with the first character capitalized.</li>
+    <li>Run your test - it should fail because you don’t have the capitalize(string) function implemented yet.</li>
+    <li>Now make your tests green by implementing the capitalize(string) function. Think about what the minimum amount of code is necessary to pass this test and write it.</li>
+  </ul>
+</details>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->

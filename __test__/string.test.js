@@ -19,3 +19,15 @@ test(stringLengthMessage.success, () => {
 test(stringLengthMessage.error, () => {
   expect(stringLengthIsNotGreaterThan_0_AndLessThan_11).toThrow('Error');
 });
+
+// checking string reverse function
+//Arrange
+const reverseStringMessage = 'the function return the string in reversed';
+
+//Act
+const reverseStringTest = reverseString('shahadat');
+
+//Assert
+test(reverseStringMessage, () => {
+  expect(reverseStringTest).toBe('tadahahs');
+});

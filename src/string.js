@@ -3,6 +3,11 @@ const stringLength = (string) => {
   throw new Error('Error');
 };
 
+const reverseString = (string) => {
+  return string.split('').reverse().join('');
+};
+
 module.exports = {
   stringLength,
+  reverseString,
 };
